@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+table {border: none;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+.container-fluid{
+    margin-top: 2rem;
+}
+
+.main-heading{
+    color:#212529;
+}
+.text-center{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.table-responsive{
+    max-height: 700px;
+    width: fit-content;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    box-shadow: 5px, 10px, 20px, 20px rgba(0,0,0,1);
+}
+.thead-dark{
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    background-color:#212529;
+}
+th{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+td{
+    width: auto;
+    font-size: 1rem;
+}
+.stateee{
+    font-weight: bold;
+}
+
+td{
+    
+    text-align: center;
+    color:#212925;
+    height: 2rem;    
+}
+tr:hover{
+    background-color: #ececec;
+}
+td:hover{
+    background-color: #75df7a;
+    border-style: solid;
+}
+.deathdata:hover{
+    background-color: #e75373;
+}
+
+.statedata:hover{
+    background-color: inherit;
+}
+
+.statedata{
+    font-size: 1.2rem;
+}
